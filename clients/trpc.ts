@@ -1,10 +1,11 @@
 import { createTRPCClient, httpBatchLink } from "@trpc/client";
 import type { AppRouter } from "@/router/app";
+import { getBaseUrl } from "@/utils/environment";
 
 export const waveRTCTrpcClient = createTRPCClient<AppRouter>({
   links: [
     httpBatchLink({
-      url: "http://localhost:3000/api/trpc",
+      url: getBaseUrl() + "/api/trpc",
     }),
   ],
 });

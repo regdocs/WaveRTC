@@ -1,7 +1,7 @@
 export function getBaseUrl() {
   if (typeof window !== "undefined")
     // browser should use relative path
-    return "";
+    return process.env.NEXT_PUBLIC_HOST;
 
   if (process.env.VERCEL_URL)
     // reference for vercel.com
