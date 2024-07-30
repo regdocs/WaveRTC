@@ -11,8 +11,6 @@
   "dependencies": {
     "@tanstack/react-query": "^5.51.15",
     "@trpc/client": "^11.0.0-rc.467",
-    "@trpc/next": "^11.0.0-rc.467",
-    "@trpc/react-query": "^11.0.0-rc.467",
     "@trpc/server": "^11.0.0-rc.467",
     "next": "14.2.5",
     "react": "^18",
