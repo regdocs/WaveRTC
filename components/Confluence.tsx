@@ -13,7 +13,7 @@ function Confluence({
   password: string;
 }) {
   return (
-    <div className='flex flex-col justify-between items-center gap-7'>
+    <div className='flex flex-col justify-between items-center gap-5'>
       <div className='flex flex-row justify-between items-center w-full'>
         <RoomInfoBox roomid={roomid} password={password} />
 

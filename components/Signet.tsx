@@ -3,7 +3,7 @@ import { BsGithub, BsSoundwave } from "react-icons/bs";
 
 function Signet() {
   return (
-    <div className='flex flex-row gap-2 items-center p-5 bg-tokyo-dull-gray bg-opacity-30 rounded-xl shadow-lg justify-center flex-nowrap'>
+    <div className='flex flex-row gap-2 items-center p-5 bg-tokyo-blue rounded-2xl shadow-lg justify-center flex-nowrap'>
       <BsSoundwave fontSize={30} className='text-tokyo-bright-blue' />
 
       <div className='font-light text-xl whitespace-nowrap'>

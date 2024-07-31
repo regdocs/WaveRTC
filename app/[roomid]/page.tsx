@@ -7,8 +7,8 @@ import Signet from "@/components/Signet";
 
 function Room({ params }: { params: { roomid: string } }) {
   return (
-    <main className='flex-grow grid grid-cols-[18%_1fr_25%] w-full h-full gap-7 p-7'>
-      <div className='flex flex-col w-full h-full gap-7'>
+    <main className='flex-grow grid grid-cols-[20%_1fr_20%] w-full h-full gap-5 p-5'>
+      <div className='flex flex-col w-full h-full gap-5'>
         <Signet />
 
         <RecentPanel />

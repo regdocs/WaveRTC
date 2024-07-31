@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 html, body {
-  @apply h-full w-full bg-tokyo-dark text-tokyo-dull-gray font-light;
+  @apply h-full w-full bg-tokyo-dark text-tokyo-dull-gray font-light text-[14px];
 }
