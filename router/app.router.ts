@@ -1,5 +1,7 @@
 import { z } from "zod";
 import { procedure, router } from "./trpc";
+import { callRouter } from "./call.router";
+import { initRouter } from "./init.router";
 
 export const appRouter = router({
   helloWorld: procedure
@@ -13,7 +15,10 @@ export const appRouter = router({
         greeting: `hello ${input.sayHelloTo}`,
       };
     }),
+
+  call: callRouter,
+
+  appInit: initRouter,
 });
 
-// export type definition of API
 export type AppRouter = typeof appRouter;

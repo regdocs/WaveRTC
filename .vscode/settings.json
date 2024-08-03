@@ -1,0 +1,9 @@
+{
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": true,
+  "editor.minimap.autohide": true,
+  "editor.minimap.renderCharacters": false,
+  "editor.guides.indentation": false,
+  "todohighlight.isEnable": true,
+  "editor.foldingHighlight": true
+}
