@@ -14,10 +14,10 @@ export const waveRTCTrpcClient = createTRPCClient<AppRouter>({
     splitLink({
       condition: (op) => op.type === "subscription",
       true: unstable_httpSubscriptionLink({
-        url: `${getBaseUrl()}/api/trpc`,
+        url: `/api/trpc`,
       }),
       false: httpBatchLink({
-        url: `${getBaseUrl()}/api/trpc`,
+        url: `/api/trpc`,
       }),
     }),
   ],

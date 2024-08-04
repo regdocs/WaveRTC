@@ -16,7 +16,7 @@ export const appRouter = router({
       };
     }),
 
-  call: callRouter,
+  wavertc: callRouter,
 
   appInit: initRouter,
 });
